@@ -59,7 +59,7 @@ padding:0;
 /*----*/
 .header{
 	background:#333;
-	padding:2em 0 1em;
+	padding:1em  1em;
 }
 .header-top{
 	margin-bottom:1em;
@@ -205,31 +205,37 @@ font-size:3em;
 }
 .top-menu ul li{
 	display:inline-block;
-	margin-top:1em;
+	margin-top: .5em;
+  /*padding-left: 100px;*/
+
 }
 .top-menu ul li a{
 	font-size:1.1em;
 	display:block;
-	padding:10px 18px;
+
+	padding: 0px 10px;
 	margin:0 1em;
 	color:#fff;
 	text-decoration:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
 	color:#ff9721;
+  /*padding-right: 100px;*/
+
 }
 span.menu{
 	display: none;
 }
 .glyphicon {
-  top: -8px;
+
+  top: -9px;
   display: block;
 }
 /*--banner--*/
 .banner{
 	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:650px;
+	min-height:550px;
 	padding-top:17em;
 	text-align:center;
 }
@@ -1308,7 +1314,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
 @media (max-width: 640px){
 span.menu{
 	display: block;
-  text-align: right;
+  text-align: center;
   padding-bottom: 0.5em;
   cursor: pointer;	
   position:relative;
